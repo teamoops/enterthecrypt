@@ -1,0 +1,12 @@
+# crypto tools
+
+* ascii2hex - converts ascii hex values (i.e. ffffff) to the literal byte values (should be used in a pipeline)
+* onlyascii - shows only valid ascii characters (minus control characters) in case you're reading a bunch of binary and don't want to screw up your terminal
+* xor       - an xor tool that can repeatedly xor the second file against the first with the -r flag
+
+# other crypt tools that are probably already installed on your system
+
+* base64
+* sha256
+* xxd (likely to use xxd -p)
+* hexdump
