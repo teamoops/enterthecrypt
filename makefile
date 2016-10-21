@@ -1,6 +1,7 @@
 TARGETS=ascii2hex xor onlyascii
+CFLAGS=-std=c99 -g
 
 %: %.c
-	cc $< -o $@
+	cc $(CFLAGS) $< -o $@
 
 all: $(TARGETS)
