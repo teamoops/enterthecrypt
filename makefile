@@ -1,4 +1,4 @@
-TARGETS=hex2b64 xor
+TARGETS=ascii2hex
 
 %: %.c
 	cc $< -o $@
